@@ -4,8 +4,310 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mess Manager</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font.... -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
-<body>
-    
+<body class="bg-pink-200 m-8">
+    <main>
+        <section class="flex gap-10">
+            <div class="w-2/5">
+                <h1 class="text-4xl font-bold">Mess Members</h1>
+                <div class="flex flex-col gap-10">
+                <!-- member-1 -->
+                
+                    <div class="text-4xl font-semibold bg-slate-600 text-white rounded-2xl px-10 py-5 shadow-lg shadow-black">
+                     <p>Name: member-1</p>
+
+                     <h3 class="text-green-500">Deposit: <input class="h-12 text-2xl font-bold rounded-xl px-8 my-5" type="number" placeholder="Input Amount" name="" id="deposit-1"></h3>
+                     <h3> Meal: &nbsp;&nbsp;&nbsp; <input class="h-12 text-2xl font-bold rounded-xl px-8 mb-5" type="number" placeholder="Input Amount" name="" id="meal-1"></h3>
+
+                     <h3 id="cost-1" class="text-red-500">Cost: <span>00</span></h3>
+                     <h3 id="feedback-1" class="my-5">N/A</h3>
+                    </div>
+                
+                                <!-- ...... -->
+                <!-- member-2 -->
+                
+                    <div class="text-4xl font-semibold bg-slate-600 text-white rounded-2xl px-10 py-5 shadow-lg shadow-black">
+                     <p>Name: member-2</p>
+
+                     <h3 class="text-green-500">Deposit: <input class="h-12 text-2xl font-bold rounded-xl px-8 my-5" type="number" placeholder="Input Amount" name="" id="deposit-2"></h3>
+                     <h3> Meal: &nbsp;&nbsp;&nbsp; <input class="h-12 text-2xl font-bold rounded-xl px-8 mb-5" type="number" placeholder="Input Amount" name="" id="meal-2"></h3>
+
+                     <h3 id="cost-2" class="text-red-500">Cost: <span>00</span></h3>
+                     <h3 id="feedback-2" class="my-5">N/A</h3>
+                    </div>
+               
+                                <!-- ...... -->
+                <!-- member-3 -->
+               
+                    <div class="text-4xl font-semibold bg-slate-600 text-white rounded-2xl px-10 py-5 shadow-lg shadow-black">
+                     <p>Name: member-3</p>
+
+                     <h3 class="text-green-500">Deposit: <input class="h-12 text-2xl font-bold rounded-xl px-8 my-5" type="number" placeholder="Input Amount" name="" id="deposit-3"></h3>
+                     <h3> Meal: &nbsp;&nbsp;&nbsp; <input class="h-12 text-2xl font-bold rounded-xl px-8 mb-5" type="number" placeholder="Input Amount" name="" id="meal-3"></h3>
+
+                     <h3 id="cost-3" class="text-red-500">Cost: <span>00</span></h3>
+                     <h3 id="feedback-3" class="my-5">N/A</h3>
+                    </div>
+                
+                                <!-- ...... -->
+                <!-- member-4 -->
+               
+                    <div class="text-4xl font-semibold bg-slate-600 text-white rounded-2xl px-10 py-5 shadow-lg shadow-black">
+                     <p>Name: member-4</p>
+
+                     <h3 class="text-green-500">Deposit: <input class="h-12 text-2xl font-bold rounded-xl px-8 my-5" type="number" placeholder="Input Amount" name="" id="deposit-4"></h3>
+                     <h3> Meal: &nbsp;&nbsp;&nbsp; <input class="h-12 text-2xl font-bold rounded-xl px-8 mb-5" type="number" placeholder="Input Amount" name="" id="meal-4"></h3>
+
+                     <h3 id="cost-4" class="text-red-500">Cost: <span>00</span></h3>
+                     <h3 id="feedback-4" class="my-5">N/A</h3>
+                    </div>
+                      <!-- ...... -->
+                <!-- member-5 -->
+                
+                    <div class="text-4xl font-semibold bg-slate-600 text-white rounded-2xl px-10 py-5 shadow-lg shadow-black">
+                     <p>Name: member-5</p>
+
+                     <h3 class="text-green-500">Deposit: <input class="h-12 text-2xl font-bold rounded-xl px-8 my-5" type="number" placeholder="Input Amount" name="" id="deposit-5"></h3>
+                     <h3> Meal: &nbsp;&nbsp;&nbsp; <input class="h-12 text-2xl font-bold rounded-xl px-8 mb-5" type="number" placeholder="Input Amount" name="" id="meal-5"></h3>
+
+                     <h3 id="cost-5" class="text-red-500">Cost: <span>00</span></h3>
+                     <h3 id="feedback-5" class="my-5">N/A</h3>
+                    </div>
+              
+                                <!-- ...... -->
+                <!-- member-6 -->
+                
+                    <div class="text-4xl font-semibold bg-slate-600 text-white rounded-2xl px-10 py-5 shadow-lg shadow-black">
+                     <p>Name: member-6</p>
+
+                     <h3 class="text-green-500">Deposit: <input class="h-12 text-2xl font-bold rounded-xl px-8 my-5" type="number" placeholder="Input Amount" name="" id="deposit-6"></h3>
+                     <h3> Meal: &nbsp;&nbsp;&nbsp; <input class="h-12 text-2xl font-bold rounded-xl px-8 mb-5" type="number" placeholder="Input Amount" name="" id="meal-6"></h3>
+
+                     <h3 id="cost-6" class="text-red-500">Cost: <span>00</span></h3>
+                     <h3 id="feedback-6" class="my-5">N/A</h3>
+                    </div>
+             
+                                <!-- ...... -->
+                <!-- member-7 -->
+                
+                    <div class="text-4xl font-semibold bg-slate-600 text-white rounded-2xl px-10 py-5 shadow-lg shadow-black">
+                     <p>Name: member-7</p>
+
+                     <h3 class="text-green-500">Deposit: <input class="h-12 text-2xl font-bold rounded-xl px-8 my-5" type="number" placeholder="Input Amount" name="" id="deposit-7"></h3>
+                     <h3> Meal: &nbsp;&nbsp;&nbsp; <input class="h-12 text-2xl font-bold rounded-xl px-8 mb-5" type="number" placeholder="Input Amount" name="" id="meal-7"></h3>
+
+                     <h3 id="cost-7" class="text-red-500">Cost: <span>00</span></h3>
+                     <h3 id="feedback-7" class="my-5">N/A</h3>
+                    </div>
+                
+                                <!-- ...... -- -->
+            </div>
+        </div>
+
+            <div class="w-1/3 flex flex-col  gap-10">
+                <div class="bg-green-700 text-4xl font-bold text-center p-8 text-white rounded-2xl shadow-black shadow-lg">
+                    <h3>Total Deposit</h3>
+                    <br>
+                    
+                    <h3 class="total-deposit">00</h3>
+
+                </div>
+                <div class="bg-red-700 text-4xl font-bold text-center p-8 text-white rounded-2xl shadow-black shadow-lg">
+                    <h3>Total Cost</h3>
+                    <br>
+                   
+                    <h3 class="total-cost">00</h3>
+
+                </div>
+                <div class="bg-gray-500 text-4xl font-bold text-center p-8 text-white rounded-2xl shadow-black shadow-lg">
+                    <h3>Total Meal</h3>
+                    <br>
+                   
+                    <h3 class="total-meal">00</h3>
+
+                </div>
+                <div class="bg-gray-700 text-4xl font-bold text-center p-8 text-white rounded-2xl shadow-black shadow-lg">
+                    <h3>Meal Charge</h3>
+                    <br>
+                    
+                    <h3 class="meal-charge">00</h3>
+
+                </div>
+
+                <button id="btn" class="bg-yellow-400 px-10 py-5 w-auto shadow-black shadow-lg rounded-xl text-black hover:bg-yellow-600 hover:text-gray-500 font-bold text-4xl ">Calculate</button>
+            </div>
+
+            <div class=" flex flex-col gap-4 w-1/4">
+
+                <!-- Regular Expense-1 -->
+              <div>
+                <span class="text-4xl font-bold">1.</span> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-1">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-2 -->
+              <div>
+                <span class="text-4xl font-bold">2.</span> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-2">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-3 -->
+             <div>
+                <span class="text-4xl font-bold">3.</span> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-3">
+             </div>
+               <!-- .. -->
+                <!-- Regular Expense-4 -->
+              <div>
+                <span class="text-4xl font-bold">4.</span> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-4">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-5 -->
+              <div>
+                <span class="text-4xl font-bold">5.</span> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-5">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-6 -->
+               <div>
+                <span class="text-4xl font-bold">6.</span> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-6">
+               </div>
+               <!-- .. -->
+                <!-- Regular Expense-7 -->
+              <div>
+                <span class="text-4xl font-bold">7.</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-7">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-8 -->
+              <div>
+                <span class="text-4xl font-bold">8.</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-8">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-9 -->
+               <div>
+                <span class="text-4xl font-bold">9.</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-9">
+               </div>
+               <!-- .. -->
+                <!-- Regular Expense-10 -->
+              <div>
+                <span class="text-4xl font-bold">10.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-10">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-11 -->
+              <div>
+                <span class="text-4xl font-bold">11.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-11">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-12 -->
+              <div>
+                <span class="text-4xl font-bold">12.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-12">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-13 -->
+           <div>
+            <span class="text-4xl font-bold">13.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-13">
+           </div>
+               <!-- .. -->
+                <!-- Regular Expense-14 -->
+            <div>
+                <span class="text-4xl font-bold">14.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-14">
+            </div>
+               <!-- .. -->
+                <!-- Regular Expense-15 -->
+             <div>
+                <span class="text-4xl font-bold">15.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-15">
+             </div>
+               <!-- .. -->
+                <!-- Regular Expense-16 -->
+             <div>
+                <span class="text-4xl font-bold">16.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-16">
+             </div>
+               <!-- .. -->
+                <!-- Regular Expense-17 -->
+            <div>
+                <span class="text-4xl font-bold">17.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-17">
+            </div>
+               <!-- .. -->
+                <!-- Regular Expense-18 -->
+         <div>
+            <span class="text-4xl font-bold">18.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-18">
+         </div>
+               <!-- .. -->
+                <!-- Regular Expense-19 -->
+             <div>
+                <span class="text-4xl font-bold">19.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-19">
+             </div>
+               <!-- .. -->
+                <!-- Regular Expense-20 -->
+              <div>
+                <span class="text-4xl font-bold">20.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-20">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-21 -->
+              <div>
+
+                <span class="text-4xl font-bold">21.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-21">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-22 -->
+             <div>
+                <span class="text-4xl font-bold">22.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-22">
+             </div>
+               <!-- .. -->
+                <!-- Regular Expense-23 -->
+          <div>
+            <span class="text-4xl font-bold">23.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-23">
+          </div>
+               <!-- .. -->
+                <!-- Regular Expense-24 -->
+             <div>
+                <span class="text-4xl font-bold">24.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-24">
+             </div>
+               <!-- .. -->
+                <!-- Regular Expense-25 -->
+             <div>
+                <span class="text-4xl font-bold">25.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-25">
+             </div>
+               <!-- .. -->
+                <!-- Regular Expense-26 -->
+              <div>
+                <span class="text-4xl font-bold">26.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-26">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-27 -->
+             <div>
+                <span class="text-4xl font-bold">27.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-27">
+             </div>
+               <!-- .. -->
+                <!-- Regular Expense-28 -->
+              <div>
+                <span class="text-4xl font-bold">28.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-28">
+              </div>
+               <!-- .. -->
+                <!-- Regular Expense-29 -->
+               <div>
+                <span class="text-4xl font-bold">29.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-29">
+               </div>
+               <!-- .. -->
+                <!-- Regular Expense-30 -->
+               <div>
+                <span class="text-4xl font-bold">30.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-30">
+               </div>
+               <!-- .. -->
+                <!-- Regular Expense-31 -->
+              <div>
+                <span class="text-4xl font-bold">31.</span> &nbsp;&nbsp;&nbsp; <input type="number" name="" placeholder="Amount" class="h-12 text-2xl font-bold rounded-xl px-8" id="date-31">
+              </div>
+               <!-- .. -->
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
